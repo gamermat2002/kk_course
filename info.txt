@@ -1,0 +1,30 @@
+mkdir <directory name> : create a folder
+
+rmdir <directory name> : remove a folder
+
+del <file name> : delete a file
+
+copy <source_file> <destination>
+
+move <source> <destination>
+
+dir : Lists the contents of a directory.
+
+type <file_name> :  Displays the contents of a text file.
+
+echo Hello, world! > example.txt : to add data into the file and create a file (When using this command existing data will be over written)
+
+echo This is additional text >> example.txt : by using >> changes will be appende to the file
+
+***      git Commands        ************
+
+git status : will display unstaged changes 
+git log : shows all the commitred changes
+git rm <file name> : removes the file
+git add . : will stage all the changes done in the directory
+git add <file name> : will stage the changes done to the current file name
+git commit -m "message" : commits the changes that are in the stage
+git status : will show all the uncommited changes and unstages changes
+git log : Shows all the commited changes
+git stash : stores all the changes in the back stage that are currently in the stage and can be retrived when need and commited (usually performed to store changes without the need for those changes to be reflected in the history)
+git remote add origin <git repository url link> : to add a git url repository
